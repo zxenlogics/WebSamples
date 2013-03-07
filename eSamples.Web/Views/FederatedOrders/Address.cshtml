@@ -1,0 +1,31 @@
+﻿@model eSamples.Domain.Address
+
+@{
+    ViewBag.Title = "Address";
+}
+
+<h2>Address</h2>
+
+<fieldset class="two-column">
+    <legend>Address for Hcp#: @Model.HcpId</legend>
+
+    <ol>
+        <li>
+            <label>Address1:</label><label>@Html.DisplayFor(model => model.Address1)</label>
+        </li>
+        <li>
+            <label>City:</label><label>@Html.DisplayFor(model => model.City)</label>
+        </li>
+        <li>
+            <label>State:</label><label>@Html.DisplayFor(model => model.State)</label>
+        </li>
+        <li>
+            <label>Zip:</label><label>@Html.DisplayFor(model => model.Zip)</label>
+        </li>
+    </ol>
+
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.AddressId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @*<link href="http://www.pfizerpro.com/resources/shared/css/global.css" rel="stylesheet" type="text/css" media="screen" />*@
+    <link href="~/Content/normalize.css" rel="stylesheet" />
+    <link href="~/Content/samples.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+    
+        <div id="header">
+            <header>
+            <div id="pfp-header-top">
+                
+            </div>
+            <div id="pfp-header-bottom">
+                <div id="pfp-logo"></div>
+                <nav>
+                <ul id="pfp-main-nav">
+                    <li class="active"><a href="http://www.pfizerpro.com/home">PfizerPro
+                        <br>
+                        Home</a></li>
+                    <li><a href="http://www.pfizerpro.com/products">Products</a></li>
+                    <li><a href="http://www.pfizerpro.com/specialties">Specialties</a></li>
+                    <li><a href="http://www.pfizerpro.com/clinicaltrials">Clinical Trials</a></li>
+                    <li><a href="http://www.pfizerpro.com/professinal_resources/educational">Professional
+                        <br>
+                        Resources</a></li>
+                    <li><a href="http://www.pfizerpro.com/patient_resources/educational">Patient Education<br>
+                        and Assistance</a></li>
+                </ul>
+                    </nav>
+            </div>
+            
+            <div class="logged-in">
+                <p class="welcome">
+                    Welcome, Marc Wilson
+                </p>
+                <ul>
+                    <li>Update Profile</li>
+                    <li>Manage Preferences</li>
+                    <li>Logout</li>
+                </ul>
+            </div>
+
+            </header>
+        </div>   
+                       
+
+    <div id="body">
+
+         @RenderSection("featured", required: false)
+        <div id="pfp-sidebar">
+            <section>
+                <ul>
+                    <li>Pfizer Samples</li>
+                    <li>Vaccine Ordering >></li>
+                    <li>Submit Medical Question >></li>
+                    <li>
+                        <p>To report and adverse event o rto speal to a member....
+                        </p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <section>
+            @RenderBody()
+        </section>
+    </div>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿@model IEnumerable<eSamples.Domain.ProductSample>
+
+@{
+    ViewBag.Title = "Request Samples";
+}
+
+<h1>Request Samples</h1>
+
+<div id="#samples-container">
+    <p>Request Quantity</p>
+    @foreach(var item in Model) {
+
+        <div id="samples-list">
+            <ol>
+                <li class="product-name">@Html.DisplayFor(modelItem => item.ProductDescription)</li>
+                <li><a href="#">@Html.DisplayFor(modelItem => item.PrescribingInfoDescription)</a></li>
+                <li>
+                    <p>
+                    @Html.CheckBox("product") Rx Product Formulation
+                    </p>
+                    <p>@Html.DisplayFor(modelItem => item.AllocatedQuantity) </p>
+                </li>
+            </ol>
+
+        </div>    
+    }
+</div>

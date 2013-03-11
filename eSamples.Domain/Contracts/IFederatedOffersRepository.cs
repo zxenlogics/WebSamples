@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace eSamples.Domain.Contracts
 {
-    interface IFederatedOffersServiceAgent
+    public interface IFederatedOffersRepository
     {
         List<ProductSample> GetProductAllocations(string hcpid);
     }

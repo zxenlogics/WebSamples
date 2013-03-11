@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Address.cs" />
     <Compile Include="BusinessLogic.cs" />
+    <Compile Include="Contracts\IFederatedOffersRepository.cs" />
     <Compile Include="Contracts\IFederatedOrdersRepository.cs" />
     <Compile Include="eSamplesDb.cs" />
     <Compile Include="FederatedOffersServiceAgent.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="OrderDetails.cs" />
     <Compile Include="ProductSample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\FederatedOffersRepository.cs" />
     <Compile Include="Repositories\FederatedOrdersRepository.cs" />
     <Compile Include="SearchUserByEmailServiceAgent.cs" />
     <Compile Include="ServiceAgentBase.cs" />

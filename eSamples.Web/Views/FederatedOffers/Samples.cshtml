@@ -1,0 +1,15 @@
+﻿@model IEnumerable<eSamples.Domain.ProductSample>
+
+@{
+    ViewBag.Title = "Samples";
+}
+
+<h2>Samples Offers</h2>
+
+<ol>
+    @foreach (var sample in Model)
+    {
+        <li>@sample.ProductDescription, Link: <a href="@sample.PrescribingInfoUrl" target="_blank">@sample.PrescribingInfoUrl</a></li>
+    }
+
+</ol>

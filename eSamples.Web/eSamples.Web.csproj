@@ -233,6 +233,8 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <None Include="Properties\PublishProfiles\zxenmvctest - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\zxenmvctest - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Images\pfp-header-top.gif" />
     <Content Include="Images\pfp-header-bottom.gif" />

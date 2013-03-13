@@ -10,11 +10,10 @@ using eSamples.Domain;
 
 namespace eSamples.Web.Controllers
 {
+    [Authorize]
     public class FederatedOffersController : Controller
     {
-        //
-        // GET: /FederatedOffers/
-
+        [Authorize]
         public ActionResult Samples()
         {
             IFederatedOffersRepository repository = new FederatedOffersRepository();

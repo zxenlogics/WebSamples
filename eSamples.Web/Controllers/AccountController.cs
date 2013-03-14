@@ -14,7 +14,6 @@ using eSamples.Web.Models;
 namespace eSamples.Web.Controllers
 {
     [Authorize]
-    [InitializeSimpleMembership]
     public class AccountController : Controller
     {
         //

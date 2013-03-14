@@ -10,6 +10,8 @@ namespace eSamples.Domain
 {
     public class eSamplesDb : DbContext
     {
+        public eSamplesDb() : base("name=DefaultConnection") { }
+        
         public DbSet<HcpStateLicense> HcpLicenses { get; set; }
         public DbSet<Address> Addresses { get; set; }
         public DbSet<ProductSample> ProductSamples { get; set; }

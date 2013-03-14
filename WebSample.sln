@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eSamples.Domain", "eSamples.Domain\eSamples.Domain.csproj", "{24CAA512-D40B-40D9-A88C-76A71BA0D285}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSample.Domain", "eSamples.Domain\WebSample.Domain.csproj", "{24CAA512-D40B-40D9-A88C-76A71BA0D285}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eSamples.Web", "eSamples.Web\eSamples.Web.csproj", "{9D50DEBB-C086-4E83-A4B8-BB02DF9044D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSample.Web", "eSamples.Web\WebSample.Web.csproj", "{9D50DEBB-C086-4E83-A4B8-BB02DF9044D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eSamples.Extensions", "eSamples.Extensions\eSamples.Extensions.csproj", "{2FF46B11-9FFE-49B8-AB59-4D8E4AEDA7C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSample.Extensions", "eSamples.Extensions\WebSample.Extensions.csproj", "{2FF46B11-9FFE-49B8-AB59-4D8E4AEDA7C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eSamples.UnitTest", "eSamples.UnitTest\eSamples.UnitTest.csproj", "{7EBDAB5F-1100-49D3-9748-D3FBD29EE36D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSample.UnitTest", "eSamples.UnitTest\WebSample.UnitTest.csproj", "{7EBDAB5F-1100-49D3-9748-D3FBD29EE36D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

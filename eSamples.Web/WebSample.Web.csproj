@@ -307,9 +307,9 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\eSamples.Domain\eSamples.Domain.csproj">
+    <ProjectReference Include="..\eSamples.Domain\WebSample.Domain.csproj">
       <Project>{24caa512-d40b-40d9-a88c-76a71ba0d285}</Project>
-      <Name>eSamples.Domain</Name>
+      <Name>WebSample.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

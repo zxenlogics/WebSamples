@@ -69,7 +69,7 @@
     <Compile Include="ZipInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\eSamples.Extensions\WebSample.Extensions.csproj">
+    <ProjectReference Include="..\WebSample.Extensions\WebSample.Extensions.csproj">
       <Project>{2ff46b11-9ffe-49b8-ab59-4d8e4aeda7c5}</Project>
       <Name>WebSample.Extensions</Name>
     </ProjectReference>

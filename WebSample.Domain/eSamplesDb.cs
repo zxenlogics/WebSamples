@@ -11,7 +11,8 @@ namespace eSamples.Domain
     public class eSamplesDb : DbContext
     {
         public eSamplesDb() : base("name=DefaultConnection") { }
-        
+
+        public DbSet<UserProfile> UserProfiles { get; set; }
         public DbSet<HcpStateLicense> HcpLicenses { get; set; }
         public DbSet<Address> Addresses { get; set; }
         public DbSet<ProductSample> ProductSamples { get; set; }

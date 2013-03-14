@@ -8,8 +8,9 @@ using System.Web.Security;
 using DotNetOpenAuth.AspNet;
 using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
-using eSamples.Web.Filters;
+//using eSamples.Web.Filters;
 using eSamples.Web.Models;
+using eSamples.Domain;
 
 namespace eSamples.Web.Controllers
 {
@@ -262,7 +263,7 @@ namespace eSamples.Web.Controllers
             if (ModelState.IsValid)
             {
                 // Insert a new user into the database
-                using (UsersContext db = new UsersContext())
+                using (eSamplesDb db = new eSamplesDb())
                 {
                     UserProfile user = db.UserProfiles.FirstOrDefault(u => u.UserName.ToLower() == model.UserName.ToLower());
                     // Check if user already exists

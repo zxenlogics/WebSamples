@@ -66,6 +66,7 @@
     <Compile Include="ServiceAgentBase.cs" />
     <Compile Include="Srf.cs" />
     <Compile Include="SrfDocument.cs" />
+    <Compile Include="UserProfile.cs" />
     <Compile Include="ZipInfo.cs" />
   </ItemGroup>
   <ItemGroup>

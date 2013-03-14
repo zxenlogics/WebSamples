@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace eSamples.Domain.Contracts
+namespace WebSample.Domain.Contracts
 {
     public interface IFederatedOffersRepository
     {

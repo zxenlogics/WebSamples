@@ -8,11 +8,11 @@ using System.Web.Security;
 using DotNetOpenAuth.AspNet;
 using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
-//using eSamples.Web.Filters;
-using eSamples.Web.Models;
-using eSamples.Domain;
+//using WebSample.Web.Filters;
+using WebSample.Web.Models;
+using WebSample.Domain;
 
-namespace eSamples.Web.Controllers
+namespace WebSample.Web.Controllers
 {
     [Authorize]
     public class AccountController : Controller

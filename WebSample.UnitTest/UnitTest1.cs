@@ -2,11 +2,11 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 
-using eSamples.Domain;
-using eSamples.Domain.Contracts;
-using eSamples.Domain.Repositories;
+using WebSample.Domain;
+using WebSample.Domain.Contracts;
+using WebSample.Domain.Repositories;
 
-namespace eSamples.UnitTest
+namespace WebSample.UnitTest
 {
     [TestClass]
     public class UnitTest1

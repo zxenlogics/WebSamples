@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using eSamples.Domain;
-using eSamples.Domain.Contracts;
+using WebSample.Domain;
+using WebSample.Domain.Contracts;
 
-namespace eSamples.Domain.Repositories
+namespace WebSample.Domain.Repositories
 {
     public class FederatedOrdersRepository : IFederatedOrdersRepository
     {

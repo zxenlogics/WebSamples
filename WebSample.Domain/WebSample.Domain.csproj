@@ -7,8 +7,8 @@
     <ProjectGuid>{24CAA512-D40B-40D9-A88C-76A71BA0D285}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>eSamples.Domain</RootNamespace>
-    <AssemblyName>eSamples.Domain</AssemblyName>
+    <RootNamespace>WebSample.Domain</RootNamespace>
+    <AssemblyName>WebSample.Domain</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

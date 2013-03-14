@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using eSamples.Domain.Contracts;
+using WebSample.Domain.Contracts;
 
-namespace eSamples.Domain
+namespace WebSample.Domain
 {
     public class FederatedOrdersServiceAgent : ServiceAgentBase, IFederatedOrdersServiceAgent
     {

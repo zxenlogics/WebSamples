@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace eSamples.Web.Controllers
+namespace WebSample.Web.Controllers
 {
     public class ShippingController : Controller
     {

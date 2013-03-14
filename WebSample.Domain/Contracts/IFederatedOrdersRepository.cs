@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eSamples.Domain.Contracts
+namespace WebSample.Domain.Contracts
 {
     public interface IFederatedOrdersRepository
     {

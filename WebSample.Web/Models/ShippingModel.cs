@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace eSamples.Web.Models
+namespace WebSample.Web.Models
 {
     public class ShippingModel
     {

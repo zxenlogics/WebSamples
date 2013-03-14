@@ -5,9 +5,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using eSamples.Extensions;
+using WebSample.Extensions;
 
-namespace eSamples.Domain
+namespace WebSample.Domain
 {
     [Table("Address")]
     public class Address

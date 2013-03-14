@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using eSamples.Domain.Contracts;
+using WebSample.Domain.Contracts;
 
-namespace eSamples.Domain.Repositories
+namespace WebSample.Domain.Repositories
 {
     public class FederatedOffersRepository : IFederatedOffersRepository
     {

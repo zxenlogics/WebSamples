@@ -6,8 +6,8 @@
     <ProjectGuid>{7EBDAB5F-1100-49D3-9748-D3FBD29EE36D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>eSamples.UnitTest</RootNamespace>
-    <AssemblyName>eSamples.UnitTest</AssemblyName>
+    <RootNamespace>WebSample.UnitTest</RootNamespace>
+    <AssemblyName>WebSample.UnitTest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

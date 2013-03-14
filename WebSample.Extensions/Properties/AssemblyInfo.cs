@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("eSamples.Extensions")]
+[assembly: AssemblyTitle("WebSample.Extensions")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Avanade")]
-[assembly: AssemblyProduct("eSamples.Extensions")]
+[assembly: AssemblyProduct("WebSample.Extensions")]
 [assembly: AssemblyCopyright("Copyright © Avanade 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

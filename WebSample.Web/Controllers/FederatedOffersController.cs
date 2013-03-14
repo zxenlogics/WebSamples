@@ -4,11 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-using eSamples.Domain.Contracts;
-using eSamples.Domain.Repositories;
-using eSamples.Domain;
+using WebSample.Domain.Contracts;
+using WebSample.Domain.Repositories;
+using WebSample.Domain;
 
-namespace eSamples.Web.Controllers
+namespace WebSample.Web.Controllers
 {
     [Authorize]
     public class FederatedOffersController : Controller

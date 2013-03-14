@@ -4,9 +4,9 @@
 //using System.Threading;
 //using System.Web.Mvc;
 //using WebMatrix.WebData;
-//using eSamples.Web.Models;
+//using WebSample.Web.Models;
 
-//namespace eSamples.Web.Filters
+//namespace WebSample.Web.Filters
 //{
 //    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = false, Inherited = true)]
 //    public sealed class InitializeSimpleMembershipAttribute : ActionFilterAttribute

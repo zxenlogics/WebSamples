@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eSamples.Extensions
+namespace WebSample.Extensions
 {
     public static class StringExtensions
     {

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-using eSamples.Domain;
-using eSamples.Web.Models;
+using WebSample.Domain;
+using WebSample.Web.Models;
 
-namespace eSamples.Web.Controllers
+namespace WebSample.Web.Controllers
 {
     public class HomeController : Controller
     {

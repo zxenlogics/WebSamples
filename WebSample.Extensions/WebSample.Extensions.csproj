@@ -7,8 +7,8 @@
     <ProjectGuid>{2FF46B11-9FFE-49B8-AB59-4D8E4AEDA7C5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>eSamples.Extensions</RootNamespace>
-    <AssemblyName>eSamples.Extensions</AssemblyName>
+    <RootNamespace>WebSample.Extensions</RootNamespace>
+    <AssemblyName>WebSample.Extensions</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

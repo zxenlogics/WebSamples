@@ -6,9 +6,9 @@ using System.Data.Entity;
 using System.Globalization;
 using System.Web.Security;
 
-using eSamples.Domain;
+using WebSample.Domain;
 
-namespace eSamples.Web.Models
+namespace WebSample.Web.Models
 {
     //public class UsersContext : DbContext
     //{

@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-
+using WebSample.Model;
 using WebSample.Domain;
 using WebSample.Domain.Contracts;
 using WebSample.Domain.Repositories;

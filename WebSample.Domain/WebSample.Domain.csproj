@@ -44,7 +44,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Address.cs" />
     <Compile Include="BusinessLogic.cs" />
     <Compile Include="Contracts\IFederatedOffersRepository.cs" />
     <Compile Include="Contracts\IFederatedOrdersRepository.cs" />
@@ -52,13 +51,10 @@
     <Compile Include="FederatedOffersServiceAgent.cs" />
     <Compile Include="FederatedOrdersServiceAgent.cs" />
     <Compile Include="HcpLookupServiceAgent.cs" />
-    <Compile Include="HcpStateLicense.cs" />
     <Compile Include="HcpUserInfo.cs" />
     <Compile Include="IBusinessLogic.cs" />
     <Compile Include="Contracts\IFederatedOrdersServiceAgent.cs" />
     <Compile Include="Contracts\IFederatedOffersServiceAgent.cs" />
-    <Compile Include="OrderDetails.cs" />
-    <Compile Include="ProductSample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\FederatedOffersRepository.cs" />
     <Compile Include="Repositories\FederatedOrdersRepository.cs" />
@@ -66,13 +62,15 @@
     <Compile Include="ServiceAgentBase.cs" />
     <Compile Include="Srf.cs" />
     <Compile Include="SrfDocument.cs" />
-    <Compile Include="UserProfile.cs" />
-    <Compile Include="ZipInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WebSample.Extensions\WebSample.Extensions.csproj">
       <Project>{2ff46b11-9ffe-49b8-ab59-4d8e4aeda7c5}</Project>
       <Name>WebSample.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebSample.Model\WebSample.Model.csproj">
+      <Project>{68ab8d7b-689c-477e-9de9-29f09e24a65b}</Project>
+      <Name>WebSample.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -47,8 +47,10 @@
     <Compile Include="Address.cs" />
     <Compile Include="HcpStateLicense.cs" />
     <Compile Include="OrderDetails.cs" />
+    <Compile Include="ProductSample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserProfile.cs" />
+    <Compile Include="ZipInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

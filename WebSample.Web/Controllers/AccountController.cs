@@ -8,7 +8,8 @@ using System.Web.Security;
 using DotNetOpenAuth.AspNet;
 using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
-//using WebSample.Web.Filters;
+
+using WebSample.Model;
 using WebSample.Web.Models;
 using WebSample.Domain;
 

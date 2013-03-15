@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using WebSample.Domain;
+using WebSample.Model;
 using WebSample.Domain.Contracts;
 
 namespace WebSample.Domain.Repositories

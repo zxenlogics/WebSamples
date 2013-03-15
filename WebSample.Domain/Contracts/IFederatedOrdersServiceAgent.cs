@@ -1,5 +1,7 @@
 ﻿using System;
 
+using WebSample.Model;
+
 namespace WebSample.Domain.Contracts
 {
     interface IFederatedOrdersServiceAgent

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebSample.Domain
+namespace WebSample.Model
 {
     public class HcpStateLicense
     {

@@ -12,7 +12,5 @@ namespace WebSample.Domain.Contracts
     {
         Address GetAddressInfo(string hcpID);
         OrderDetails GetLastOrderDetails(string hcpId);
-        SrfDocument GetSrfPreview(Srf srf);
-        bool SubmitSrf(Srf srf);
     }
 }

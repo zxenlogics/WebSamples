@@ -42,14 +42,5 @@ namespace WebSample.Domain.Repositories
             throw new NotImplementedException();
         }
 
-        public SrfDocument GetSrfPreview(Srf srf)
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool SubmitSrf(Srf srf)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

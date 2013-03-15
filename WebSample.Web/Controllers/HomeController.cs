@@ -5,7 +5,9 @@ using System.Web;
 using System.Web.Mvc;
 
 using WebSample.Model;
-using WebSample.Domain;
+
+using WebSample.Domain.Contracts;
+using WebSample.Domain.Repositories;
 using WebSample.Web.Models;
 
 namespace WebSample.Web.Controllers
@@ -37,17 +39,18 @@ namespace WebSample.Web.Controllers
         [HttpGet]
         public ActionResult RequestSamples()
         {
-            var repository = new BusinessLogic();
-            IList<ProductSample> samples = repository.GetSampleOffers();
+            IFederatedOffersRepository repository = new FederatedOffersRepository();
+            IList<ProductSample> samples = repository.GetProductAllocations("1254");
             return View(samples);
         }
 
         [HttpGet]
         public ActionResult Shipping()
         {
-            var repository = new BusinessLogic();
-            var addr = repository.GetPreviousAddress("25642");
+            IFederatedOrdersRepository repository = new FederatedOrdersRepository();
+            var addr = repository.GetAddressInfo("25642");
             var shipModel = new ShippingModel();
+
             shipModel.Address1 = addr.Address1;
             shipModel.City = addr.City;
             shipModel.State = addr.State;

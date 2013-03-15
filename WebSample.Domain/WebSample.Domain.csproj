@@ -44,20 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusinessLogic.cs" />
     <Compile Include="Contracts\IFederatedOffersRepository.cs" />
     <Compile Include="Contracts\IFederatedOrdersRepository.cs" />
     <Compile Include="eSamplesDb.cs" />
-    <Compile Include="FederatedOffersServiceAgent.cs" />
-    <Compile Include="FederatedOrdersServiceAgent.cs" />
-    <Compile Include="HcpLookupServiceAgent.cs" />
-    <Compile Include="IBusinessLogic.cs" />
-    <Compile Include="Contracts\IFederatedOrdersServiceAgent.cs" />
-    <Compile Include="Contracts\IFederatedOffersServiceAgent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\FederatedOffersRepository.cs" />
     <Compile Include="Repositories\FederatedOrdersRepository.cs" />
-    <Compile Include="SearchUserByEmailServiceAgent.cs" />
     <Compile Include="ServiceAgentBase.cs" />
   </ItemGroup>
   <ItemGroup>

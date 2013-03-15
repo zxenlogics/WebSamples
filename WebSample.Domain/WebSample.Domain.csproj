@@ -51,7 +51,6 @@
     <Compile Include="FederatedOffersServiceAgent.cs" />
     <Compile Include="FederatedOrdersServiceAgent.cs" />
     <Compile Include="HcpLookupServiceAgent.cs" />
-    <Compile Include="HcpUserInfo.cs" />
     <Compile Include="IBusinessLogic.cs" />
     <Compile Include="Contracts\IFederatedOrdersServiceAgent.cs" />
     <Compile Include="Contracts\IFederatedOffersServiceAgent.cs" />
@@ -60,8 +59,6 @@
     <Compile Include="Repositories\FederatedOrdersRepository.cs" />
     <Compile Include="SearchUserByEmailServiceAgent.cs" />
     <Compile Include="ServiceAgentBase.cs" />
-    <Compile Include="Srf.cs" />
-    <Compile Include="SrfDocument.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WebSample.Extensions\WebSample.Extensions.csproj">

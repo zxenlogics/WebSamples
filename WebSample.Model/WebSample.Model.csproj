@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Address.cs" />
     <Compile Include="HcpStateLicense.cs" />
+    <Compile Include="HcpUserInfo.cs" />
     <Compile Include="OrderDetails.cs" />
     <Compile Include="ProductSample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

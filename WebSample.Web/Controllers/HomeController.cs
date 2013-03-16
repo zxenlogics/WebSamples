@@ -49,14 +49,12 @@ namespace WebSample.Web.Controllers
         {
             IFederatedOrdersRepository repository = new FederatedOrdersRepository();
             var addr = repository.GetAddressInfo("25642");
-            var shipModel = new ShippingModel();
+            var shipModel = new Address();
 
             shipModel.Address1 = addr.Address1;
             shipModel.City = addr.City;
             shipModel.State = addr.State;
             shipModel.Zip = addr.Zip;
-            shipModel.Phone = addr.Phone;
-            shipModel.Sln = "NY5421";
 
             return View(shipModel);
         }

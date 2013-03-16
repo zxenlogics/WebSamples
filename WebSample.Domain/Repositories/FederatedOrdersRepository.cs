@@ -27,7 +27,6 @@ namespace WebSample.Domain.Repositories
                 City = "New York",
                 State = "NY",
                 Zip = "10017",
-                Phone = "(212) 733-3559"
             };
         }
 

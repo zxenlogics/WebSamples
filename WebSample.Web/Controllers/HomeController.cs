@@ -40,7 +40,7 @@ namespace WebSample.Web.Controllers
         public ActionResult RequestSamples()
         {
             IFederatedOffersRepository repository = new FederatedOffersRepository();
-            IList<ProductSample> samples = repository.GetProductAllocations("1254");
+            IList<Product> samples = repository.GetProductAllocations("1254");
             return View(samples);
         }
 

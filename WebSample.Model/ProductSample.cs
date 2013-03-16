@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WebSample.Model
 {
-    public class ProductSample
+    public class Product
     {
         public enum ProductType
         {

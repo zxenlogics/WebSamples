@@ -18,7 +18,7 @@ namespace WebSample.Web.Controllers
         public ActionResult Samples()
         {
             IFederatedOffersRepository repository = new FederatedOffersRepository();
-            IEnumerable<ProductSample> samples = repository.GetProductAllocations("234");
+            IEnumerable<Product> samples = repository.GetProductAllocations("234");
             return View(samples);
         }
 

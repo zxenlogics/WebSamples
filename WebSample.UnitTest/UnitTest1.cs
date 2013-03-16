@@ -15,7 +15,7 @@ namespace WebSample.UnitTest
         public void TestMethod1()
         {
             IFederatedOrdersRepository rep = new FederatedOrdersRepository();
-            eSamplesDb db = new eSamplesDb();
+            WebSampleDb db = new WebSampleDb();
 
             Address addr = new Address() 
                 { 

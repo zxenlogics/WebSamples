@@ -36,11 +36,11 @@ namespace WebSample.Web
      {
          public static void InitializeSimpleMembership()
          {
-             Database.SetInitializer<eSamplesDb>(null);
+             Database.SetInitializer<WebSampleDb>(null);
 
              try
              {
-                 using (var context = new eSamplesDb())
+                 using (var context = new WebSampleDb())
                  {
                      if (!context.Database.Exists())
                      {

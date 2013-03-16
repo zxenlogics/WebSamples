@@ -264,7 +264,7 @@ namespace WebSample.Web.Controllers
             if (ModelState.IsValid)
             {
                 // Insert a new user into the database
-                using (eSamplesDb db = new eSamplesDb())
+                using (WebSampleDb db = new WebSampleDb())
                 {
                     UserProfile user = db.UserProfiles.FirstOrDefault(u => u.UserName.ToLower() == model.UserName.ToLower());
                     // Check if user already exists

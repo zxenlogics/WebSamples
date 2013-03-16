@@ -46,7 +46,7 @@
   <ItemGroup>
     <Compile Include="Contracts\IFederatedOffersRepository.cs" />
     <Compile Include="Contracts\IFederatedOrdersRepository.cs" />
-    <Compile Include="eSamplesDb.cs" />
+    <Compile Include="WebSampleDb.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\FederatedOffersRepository.cs" />
     <Compile Include="Repositories\FederatedOrdersRepository.cs" />

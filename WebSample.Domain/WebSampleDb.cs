@@ -9,9 +9,9 @@ using WebSample.Model;
 
 namespace WebSample.Domain
 {
-    public class eSamplesDb : DbContext
+    public class WebSampleDb : DbContext
     {
-        public eSamplesDb() : base("name=DefaultConnection") { }
+        public WebSampleDb() : base("name=DefaultConnection") { }
 
         public DbSet<UserProfile> UserProfiles { get; set; }
         public DbSet<HcpStateLicense> HcpLicenses { get; set; }

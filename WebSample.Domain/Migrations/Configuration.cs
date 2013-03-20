@@ -9,7 +9,7 @@ namespace WebSample.Domain.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(WebSample.Domain.WebSampleDb context)

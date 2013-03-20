@@ -31,7 +31,7 @@ namespace WebSample.Domain.Repositories
 
         public Product GetProductByName(string name)
         {
-            return db.Products.Single(p => p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
+            return db.Products.First(p => p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
         }
 
         public IEnumerable<Product> GetProductsByName(string name)
@@ -46,6 +46,12 @@ namespace WebSample.Domain.Repositories
 
         public void CreateProduct(Product product)
         {
+            Product p = GetProductByName(product.Name);
+            if (p != null)
+            {
+                throw new ArgumentException("A product alredy exists with the name: " + product.Name);
+            }
+
             db.Products.Add(product);
             db.SaveChanges();
         }

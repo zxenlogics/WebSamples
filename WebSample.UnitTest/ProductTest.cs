@@ -33,7 +33,7 @@ namespace WebSample.UnitTest
             {
                 Name = "Rosingnol Snowboard", Description = "Back country snowboard"
             };
-            //_context.CreateProduct(p);
+            _context.CreateProduct(p);
             _context.CreateProduct(p1);
         }
 
@@ -42,10 +42,10 @@ namespace WebSample.UnitTest
         {
             Product p = new Product
             {
-                Name = "",
-                Description = "Real walking, talking Android from outter space"
+                Description = "This should not be in the database"
             };
             _context.CreateProduct(p);
+          
         }
 
         [TestMethod]
@@ -59,6 +59,7 @@ namespace WebSample.UnitTest
         public void GetProductById_Pass()
         {
             Product p = _context.GetProductById(1);
+            Assert.IsNotNull(p);
         }
     }
 }

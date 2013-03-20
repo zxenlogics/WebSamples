@@ -1,0 +1,23 @@
+﻿@model IEnumerable<WebSample.Model.Product>
+
+@{
+    ViewBag.Title = "View All Products";
+}
+
+<h2>All Products</h2>
+
+<table id="products-grid">
+    <tr>
+        <td class="header">Product Id</td>
+        <td class="header">Product Name</td>
+    </tr>
+@foreach (var p in Model)
+{
+    <tr>
+        <td class="id">@p.ProductID</td>
+        <td class="name">@p.Name</td>
+    </tr>
+}
+
+
+</table>

@@ -1,42 +1,40 @@
 ﻿body {
-    width: 790px;
-    font-family: segoe ui;
-    margin: 5px auto;
+    /*width: 790px;*/
+    font-family: segoe ui semilight;
 }
-#body h1
-{
-    border-bottom: none;
-    font-size: 2em;
-}
-#body h2 {
 
-}
 #header
 {
-    width: 100%;
-    margin-top: 10px;
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
     position: relative;
-    /*outline: 1px dashed red*/
+    background-color: #1083CF;
+    border-radius: 3px 4px 25px 25px;
 }
-#pfp-header-top {
-    height: 30px;
-    width: 502px;
-    float: right;
-    background: url("/Images/pfp-header-top.gif");
-}
-#pfp-header-bottom {
-    height: 50px;
-    width: 780px;
-    float: right;
-    background: url("/images/pfp-header-bottom.gif");
-}
-#pfp-logo {
-    height: 43px;
-    width: 207px;
-    margin: 3px auto auto 10px;
-    float: left;
-    /*background: url("/images/pfp-logo.gif");*/
-}
+    #header h1 {
+       
+    }
+    #header #logo {
+        color: #3D3D3D;
+        font-family: Segoe UI Semilight;
+        font-size: 3em;
+        padding: 81px 0 5px 15px;
+    }
+    #header ol {
+        width: 600px;
+        height: 25px;
+        margin: 0;
+        float: right;
+        list-style-type: none;
+        background-color: #83D40B;
+    }
+    #header ol li {
+        color: #fff;
+        float: right;
+        width: 140px;
+        padding-right: 2px;
+    }
 nav {
     width: 500px;
     height: 50px;
@@ -83,32 +81,21 @@ ul#pfp-main-nav li {
     float: left;
     width: 200px;
 }
-#header div.logged-in ol
-{
-    float: right;
-    list-style-type: none;
-}
-#header div.logged-in ul li
-{
-    float: left;
-    
-}
 
-#body
-{ 
-    width: 100%;
-    margin: 100px 0;
+#body {
+    width: 1000px;
+    margin: 1px auto;
+    position: relative;
 }
-#pfp-sidebar {
-    float: left;
-    width: 300px;
-    height:300px;    
-    margin-right: 5px 10px 1px 5px;
-    font-size: .8em;
-}
+    #body h1 {
+        border-bottom: none;
+        font-size: 2em;
+    }
+    #body h2 {
+    }
 #content-section {
-    float: left;
-    font-size: .8em;
+    width: 100%;
+
 }
 #body table
 {
@@ -209,3 +196,21 @@ fieldset.two-column li label:nth-child(2) {
     text-align: left;
     display: inline-block;
 }
+
+
+table#products-grid {
+    width: 600px;
+    color: #333;
+}
+    table#products-grid tr td.header {
+        font-family: 'Segoe UI Symbol';
+        font-size: 1.2em;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    table#products-grid tr td.id {
+        width: 30px;
+    }
+    table#products-grid tr td.name {
+        width: 100px;
+    }

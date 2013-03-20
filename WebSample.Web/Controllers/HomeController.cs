@@ -4,11 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-using WebSample.Model;
-
 using WebSample.Domain.Contracts;
 using WebSample.Domain.Repositories;
-using WebSample.Web.Models;
+using WebSample.Model;
 
 namespace WebSample.Web.Controllers
 {

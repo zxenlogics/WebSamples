@@ -35,7 +35,7 @@ namespace WebSample.Web.Controllers
 
         [HttpPost]
         [Authorize]
-        public ActionResult Add()
+        public ActionResult Add(Product model)
         {
             return View();
         }

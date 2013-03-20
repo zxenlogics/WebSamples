@@ -10,7 +10,6 @@ using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
 
 using WebSample.Model;
-using WebSample.Web.Models;
 using WebSample.Domain;
 
 namespace WebSample.Web.Controllers

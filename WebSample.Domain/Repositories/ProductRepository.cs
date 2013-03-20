@@ -39,6 +39,11 @@ namespace WebSample.Domain.Repositories
             return db.Products.Where(p => p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
         }
 
+        public void Add(Product product)
+        {
+            db.Products.Add(product);
+        }
+
         public void CreateProduct(Product product)
         {
             db.Products.Add(product);
@@ -55,6 +60,11 @@ namespace WebSample.Domain.Repositories
         {
             Product p = db.Products.Find(productId);
             db.Products.Remove(p);
+            db.SaveChanges();
+        }
+
+        public void Save()
+        {
             db.SaveChanges();
         }
     }

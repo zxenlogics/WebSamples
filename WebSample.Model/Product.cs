@@ -19,8 +19,9 @@ namespace WebSample.Model
 
         [Key]
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
-        public string ProductID { get; set; }
+        public int ProductID { get; set; }
         [Required]
+        [MinLength(2), MaxLength(50)]
         public string Name { get; set; }
         public string Description { get; set; }
         public double UnitPrice { get; set; }

@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contracts\IProductRepository.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Repositories\AccountRepository.cs" />
     <Compile Include="Contracts\IAccountRepository.cs" />
     <Compile Include="Contracts\IFederatedOffersRepository.cs" />

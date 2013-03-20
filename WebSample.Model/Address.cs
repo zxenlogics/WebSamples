@@ -14,14 +14,22 @@ namespace WebSample.Model
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int AddressId { get; set; }
+        [Required]        
+        [StringLength(5)]
         public string HcpId { get; set; }
-        public string OrganizationName { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        [Required]
+        [MinLength(4), MaxLength(50)]
         public string Address1 { get; set; }
+        [Required]
         public string Address2 { get; set; }
+        [Required]
+        [MinLength(4), MaxLength(50)]
         public string City { get; set; }
+        [Required]
+        [StringLength(2)]
         public string State { get; set; }
+        [Required]
+        [StringLength(5)]
         public string Zip { get; set; }        
     }
 }

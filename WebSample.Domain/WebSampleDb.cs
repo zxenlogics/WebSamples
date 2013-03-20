@@ -14,8 +14,8 @@ namespace WebSample.Domain
         public WebSampleDb() : base("name=DefaultConnection") { }
 
         public DbSet<UserProfile> UserProfiles { get; set; }
-        public DbSet<HcpStateLicense> HcpLicenses { get; set; }
+        //public DbSet<HcpStateLicense> HcpLicenses { get; set; }
         public DbSet<Address> Addresses { get; set; }
-        public DbSet<Product> ProductSamples { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }

@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 using WebSample.Domain.Contracts;
 using WebSample.Domain.Repositories;
-using WebSample.Model;
+using WebSample.Models;
 
 namespace WebSample.Web.Controllers
 {

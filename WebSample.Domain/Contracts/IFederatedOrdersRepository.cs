@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using WebSample.Model;
+using WebSample.Models;
 
 namespace WebSample.Domain.Contracts
 {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Web.WebPages.OAuth;
 
-using WebSample.Model;
+using WebSample.Models;
 
 namespace WebSample.Web
 {

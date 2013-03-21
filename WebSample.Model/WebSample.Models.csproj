@@ -7,8 +7,8 @@
     <ProjectGuid>{68AB8D7B-689C-477E-9DE9-29F09E24A65B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WebSample.Model</RootNamespace>
-    <AssemblyName>WebSample.Model</AssemblyName>
+    <RootNamespace>WebSample.Models</RootNamespace>
+    <AssemblyName>WebSample.Models</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

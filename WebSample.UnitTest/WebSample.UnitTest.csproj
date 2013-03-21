@@ -64,9 +64,9 @@
       <Project>{24caa512-d40b-40d9-a88c-76a71ba0d285}</Project>
       <Name>WebSample.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\WebSample.Model\WebSample.Model.csproj">
+    <ProjectReference Include="..\WebSample.Model\WebSample.Models.csproj">
       <Project>{68ab8d7b-689c-477e-9de9-29f09e24a65b}</Project>
-      <Name>WebSample.Model</Name>
+      <Name>WebSample.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using WebSample.Model;
+using WebSample.Models;
 
 namespace WebSample.Domain.Contracts
 {

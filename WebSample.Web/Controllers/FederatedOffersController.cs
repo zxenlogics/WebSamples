@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-using WebSample.Model;
+using WebSample.Models;
 using WebSample.Domain.Contracts;
 using WebSample.Domain.Repositories;
 using WebSample.Domain;

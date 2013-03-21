@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSample.Extensions", "Web
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSample.UnitTest", "WebSample.UnitTest\WebSample.UnitTest.csproj", "{7EBDAB5F-1100-49D3-9748-D3FBD29EE36D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSample.Model", "WebSample.Model\WebSample.Model.csproj", "{68AB8D7B-689C-477E-9DE9-29F09E24A65B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSample.Models", "WebSample.Model\WebSample.Models.csproj", "{68AB8D7B-689C-477E-9DE9-29F09E24A65B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

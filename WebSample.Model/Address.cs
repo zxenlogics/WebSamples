@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebSample.Model
+namespace WebSample.Models
 {
     [Table("Address")]
     public class Address

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Data.Entity.Validation;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-using WebSample.Model;
+using WebSample.Models;
 using WebSample.Domain;
 using WebSample.Domain.Contracts;
 using WebSample.Domain.Repositories;

@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 using System.Globalization;
 
-namespace WebSample.Model
+namespace WebSample.Models
 {
     //public class UsersContext : DbContext
     //{

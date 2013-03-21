@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-using WebSample.Model;
+using WebSample.Models;
 using WebSample.Domain.Contracts;
 using WebSample.Domain.Repositories;
 

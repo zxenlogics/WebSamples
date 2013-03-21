@@ -10,7 +10,8 @@
     margin: 0 auto;
     position: relative;
     background-color: #1083CF;
-    border-radius: 3px 4px 25px 25px;
+    border-radius: 0px 0px 25px 25px;
+    border-top: 2px solid silver
 }
     #header h1 {
        
@@ -20,6 +21,7 @@
         font-family: Segoe UI Semilight;
         font-size: 3em;
         padding: 81px 0 5px 15px;
+        text-shadow: 10px 10px 6px #33282C;
     }
     #header ol {
         width: 600px;

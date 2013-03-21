@@ -22,19 +22,17 @@ namespace WebSample.Web.Controllers
         public ActionResult ViewAll()
         {
             IEnumerable<Product> products = db.GetProducts();
-
-            return View(products);
+            
+            return View("ErrorPage");
         }
 
         [HttpGet]
-        [Authorize]
         public ActionResult Add()
         {
             return View();
         }
 
         [HttpPost]
-        [Authorize]
         public ActionResult Add(Product model)
         {
             return View();
